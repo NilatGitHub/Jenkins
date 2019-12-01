@@ -26,7 +26,7 @@ pipeline {
 							// Deployment
 							script {
 									echo "deployment"
-									//sh 'cp /var/lib/jenkins/workspace/PipelineCode/target/addressbook.war /opt/tomcat/webapps/'
+									//sh 'cp /var/lib/jenkins/workspace/PipelineCode/target/addressbook.war /opt/tomcat/apache-tomcat-8.5.49/webapps/'
 							}
 				}
 		}
